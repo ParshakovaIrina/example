@@ -1,0 +1,55 @@
+
+body {
+   margin: -8px;
+  }
+
+  .flex-itm {  
+	display: flex;
+    flex-direction: column;	  
+    margin: -8px; 
+    padding: 0px;
+    align-items: center;  
+  }
+  
+.flex-itm a{
+    width: 100vw;
+  height: 50px;
+  transition-duration: .6s;
+  color:white;
+  text-decoration: none;
+  text-align:  center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-family:"FreeMono", monospace;
+  font-size: 30px;
+}
+
+.new{
+    border-top: 1px dashed rgba(221, 221, 221, 0.5);
+    width: 100vw;
+}
+
+.cont {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+ } 
+
+ .flex-itm a:hover {
+    width: 100vw;
+  height: 90px;
+  background-color: rgba(189, 189, 189, 0.2);
+  transition-duration: .6s;
+  margin-top: 20px;
+  margin-bottom:20px;
+  }
+
+  video{
+    position:fixed;
+    z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    overflow:hidden;
+ }
