@@ -1,0 +1,9 @@
+.galery-child{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+}
+
+.galery-child img{
+    width: 25%;
+}
