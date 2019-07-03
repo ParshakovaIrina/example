@@ -1,9 +1,32 @@
-.galery-child{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr);
+body{
+    background-image: url(images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+background-color: black;
+
 }
 
-.galery-child img{
-    width: 25%;
+.galery-kids{
+    
+    margin:0 auto;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+bottom: 5px;
+
+
+}
+
+.galery-kids img{
+   width: 3%;
+    
+
+}
+
+.img1, .img2, .img3 {
+    transition: image 1s ease-out;
 }
